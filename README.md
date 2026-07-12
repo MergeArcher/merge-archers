@@ -22,7 +22,6 @@ runs entirely on shared Hostinger hosting (no Node.js server needed).
 | `docs/` | Docs — how to play, victory points → $MARC, token, FAQ |
 | `api/leaderboard.php` | Score API (PHP + MySQL, seeded so the board never looks empty; real runs outrank seeds) |
 | `api/config.php` | Database credentials (kept out of the webroot listing, denied by `.htaccess`) |
-| `config.js` | **The only file you edit** — CA, Buy URL, social links |
 | `custom.css` / `custom-game.js` / `config-apply.js` | Site-wide layout, spectate engine, config wiring (don't edit) |
 | `logo.jpeg` | Favicon (all pages) |
 | `banner.png` | GitHub banner — the hero section look, title only (1280×400) |
